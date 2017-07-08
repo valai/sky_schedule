@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Cinzel';
+
+.bgImage {
+	/*color: yellow;*/
+	/*background-color: black;*/
+	background: url('sky1.jpeg') no-repeat center;
+	background-size: cover;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+}
+
+.bgImage:before {
+	content: '';
+	background: inherit;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+	position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+
+.title {
+  margin: 150px 0 100px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
+.inform {
+	text-align: center;
+	color: #fff;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  text-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
