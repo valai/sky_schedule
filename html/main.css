@@ -1,0 +1,29 @@
+#slideR {
+	z-index: 99;
+	cursor: pointer;
+	position: fixed;
+	top: 40%;
+	right: -140px;
+	background: #0DCEA8;
+	width: 180px;
+	color: #fff;
+	font-size: 16px;
+}
+
+#slideL {
+	z-index: 100;
+	cursor: pointer;
+	position: fixed;
+	top: 0;
+	left: -400px;
+	width: 400px;
+	height: auto;
+	padding: 0 40px 0 0;
+	background: #999;
+}
+
+#slideL .slide-inner {
+	overflow: auto;
+	overflow-x: hidden;
+	background: #ddd;
+}
